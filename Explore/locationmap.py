@@ -1,6 +1,7 @@
 #this is some code which creates a map of the bird recording locations
 #what was discovered is that the map is global
-#so locational data is most likely not useful for this project
+#so locational data is most likely not useful for this project unless...
+#the location data might only be useful if identifying regional species
 
 import pandas as pd
 import folium
