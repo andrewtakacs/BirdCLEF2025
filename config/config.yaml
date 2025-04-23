@@ -1,0 +1,27 @@
+# Audio processing parameters
+audio:
+  sample_rate: 32000
+  n_mels: 128
+  hop_length: 512
+  n_fft: 2048
+
+# Model parameters
+model:
+  num_classes: 3  # Update with actual number of species
+  batch_size: 32
+  learning_rate: 0.001
+  num_epochs: 10
+
+# Data paths
+paths:
+  raw_data: "data/raw"
+  processed_data: "data/processed"
+  train_data: "data/processed/train"
+  val_data: "data/processed/val"
+  model_save: "models/bird_classifier.pth"
+
+# Species labels (update with actual species)
+labels:
+  - species1
+  - species2
+  - species3 
